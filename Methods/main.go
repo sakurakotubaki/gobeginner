@@ -5,7 +5,17 @@ import (
 	"math"
 )
 
-//https://go-tour-jp.appspot.com/methods/1
+// https://go-tour-jp.appspot.com/methods/1
+
+/*
+Goには、クラス( class )のしくみはありませんが、型にメソッド( method )を定義できます。
+
+メソッドは、特別なレシーバ( receiver )引数を関数に取ります。
+
+レシーバは、 func キーワードとメソッド名の間に自身の引数リストで表現します。
+
+この例では、 Abs メソッドは v という名前の Vertex 型のレシーバを持つことを意味しています。
+*/
 
 type Vertex struct {
 	X, Y float64
