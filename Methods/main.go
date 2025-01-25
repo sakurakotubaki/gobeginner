@@ -5,6 +5,8 @@ import (
 	"math"
 )
 
+//https://go-tour-jp.appspot.com/methods/1
+
 type Vertex struct {
 	X, Y float64
 }
